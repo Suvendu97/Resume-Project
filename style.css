@@ -282,10 +282,10 @@ section:nth-child(2n + 1) {
 #timeline-divider {
     position: absolute;
     width: 0;
-    top: 10%;
+    top: 8%;
     left: 50%;
     border: 1px dashed #0096fa6b;
-    height: 66%;
+    height: 77%;
     color: #433E3F;
 }
 
@@ -296,6 +296,30 @@ section:nth-child(2n + 1) {
 }
 
 #timeline-divider i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: #2857a4;
+}
+
+#timeline-divider1 {
+    position: absolute;
+    width: 0;
+    top: 10%;
+    left: 50%;
+    border: 1px dashed #0096fa6b;
+    height: 67%;
+    color: #433E3F;
+}
+
+
+#timeline-divider1 .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+
+#timeline-divider1 i {
     transform: rotate(90deg);
     margin-top: -35px;
     display: block;
@@ -620,6 +644,10 @@ button:focus {
     }
 
     #timeline-divider {
+        top: 10%;
+        left: 2%;
+    }
+    #timeline-divider1 {
         top: 10%;
         left: 2%;
     }
