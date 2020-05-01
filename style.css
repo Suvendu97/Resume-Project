@@ -313,12 +313,14 @@ section:nth-child(2n + 1) {
 }
 
 #timeline-divider1 .timeline-traveller {
+    
     position: sticky;
     top: 135px;
     z-index: 2;
 }
 
 #timeline-divider1 i {
+
     transform: rotate(90deg);
     margin-top: -35px;
     display: block;
@@ -647,6 +649,7 @@ button:focus {
         left: 2%;
     }
     #timeline-divider1 {
+
         top: 10%;
         left: 2%;
     }
