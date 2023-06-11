@@ -226,7 +226,7 @@ section:nth-child(2n + 1) {
 
 
 
-/* Trainings */
+/* Experiences */
 
 .timeline {
     position: relative;
@@ -327,25 +327,25 @@ section:nth-child(2n + 1) {
     color: #2857a4;
 }
 
-.Trainings-designation {
+.Experiences-designation {
     font-size: 1.4rem;
 }
 
-.Trainings-company-name {
+.Experiences-company-name {
     margin: 5px 0 0;
     color: #eb822d;
     font-weight: 400;
     font-size: 1.2rem;
 }
 
-.Trainings-duration {
+.Experiences-duration {
     color: #9e9b9b;
     font-weight: 100;
     color: grey;
     font-size: 1rem;
 }
 
-.Trainings-description {
+.Experiences-description {
     font-size: 14px;
     padding: 2px;
     color: grey;
@@ -607,9 +607,18 @@ button:focus {
     width: 60%;
 }
 
+.seventy-percent{
+    height: inherit;
+    width: 60%;
+}
+
 .eighty-percent{
     height: inherit;
     width: 80%;
+}
+.ninety-percent{
+    height: inherit;
+    width: 90%;
 }
 
 
